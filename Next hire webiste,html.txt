@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NextHire</title>
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f7fb;
+text-align:center;
+}
+
+header{
+background:#2b6ef2;
+color:white;
+padding:40px;
+}
+
+section{
+padding:40px;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+width:250px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+button{
+background:#2b6ef2;
+color:white;
+border:none;
+padding:12px 25px;
+margin:10px;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+footer{
+background:#1f2a44;
+color:white;
+padding:20px;
+}
+
+img{
+width:300px;
+border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>NextHire</h1>
+<p><b>Build Confidence. Ace Your Interviews.</b></p>
+<p>Realistic mock interviews and personalized feedback to help students succeed in job interviews.</p>
+
+<button>Book a Mock Interview</button>
+<button>Contact Us</button>
+
+</header>
+
+<section>
+
+<h2>The Problem</h2>
+
+<img src="problem-image.jpg">
+
+<p>
+Many college students have strong academic knowledge but struggle in job interviews due to low confidence,
+lack of practice, and unclear expectations from recruiters.
+</p>
+
+</section>
+
+<section>
+
+<h2>How NextHire Helps</h2>
+
+<div class="features">
+
+<div class="card">
+<h3>Mock Interviews</h3>
+<p>Practice interviews in a realistic environment.</p>
+</div>
+
+<div class="card">
+<h3>Confidence Feedback</h3>
+<p>Get feedback on communication, clarity, and body language.</p>
+</div>
+
+<div class="card">
+<h3>Interview Scorecard</h3>
+<p>Understand strengths and improve weaknesses.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Start Your Interview Preparation Today</h2>
+
+<button>Try a Demo</button>
+<button>Book a Session</button>
+
+</section>
+
+<footer>
+
+<h3>Contact Us</h3>
+
+<p>Email: nexthire@gmail.com</p>
+<p>Instagram: @nexthire</p>
+<p>Phone: +91 9876543210</p>
+
+</footer>
+
+</body>
+</html>
